@@ -1,0 +1,18 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+
+# Dependencies (re-installable, and often huge)
+node_modules/
+
+# Logs, archives, database dumps
+*.log
+*.zip
+*.sql
+
+# Secrets
+.env

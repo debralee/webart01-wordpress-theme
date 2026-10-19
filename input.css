@@ -1,0 +1,95 @@
+@import "tailwindcss";
+/* @layer components {
+    .svc-grid { display: grid; gap: 2.5rem; }
+    .svc-image { max-width: 17rem; }
+    .svc-image img { display: block; width: 100%; height: auto; }
+    .svc-offers { position: relative; }
+    .svc-gear { display: none; pointer-events: none; }
+    .svc-list { list-style: disc; padding-left: 1.1rem; margin-top: 1rem; }
+    .svc-list li + li { margin-top: 1rem; }
+    .svc-list li::marker { color: #534c65; font-size: 1.25em; }
+    .svc-intro { font-style: italic; }
+
+    @media (min-width: 768px) {
+        .svc-grid {
+            grid-template-columns: 5fr 7fr;
+            column-gap: 2rem;
+            row-gap: 2rem;
+        }
+        .svc-header { grid-column: 1; grid-row: 1; }
+        .svc-image  { grid-column: 1; grid-row: 2; margin-left: 3.5rem; }
+        .svc-offers { grid-column: 2; grid-row: 1 / span 2; max-width: 30rem; }
+        .svc-offers h2 { margin-top: 1.75rem; }
+        .svc-gear {
+            display: block;
+            position: absolute;
+            top: -4rem;
+            right: -5rem;
+            width: 11rem;
+            z-index: 0;
+        }
+        .svc-offers-content { position: relative; z-index: 1; }
+    }
+} */
+
+/*
+ * Theme tokens for WebArt01.
+ * Add more as needed — these map to the palette from the original site
+ * (see old custom.css color reference comment) plus the newer accent colors.
+ */
+@theme {
+	--color-navy: #0b0d5f;
+	--color-badge: #4b55ac;
+	--color-ice: #89e8f9;
+	--color-lime: #a3ff54;
+	--color-slate: #534c65;
+	--color-teal: #3da8ad;
+
+	--font-sans: "Gayathri", ui-sans-serif, system-ui, sans-serif;
+}
+
+/*
+ * Any small global overrides that don't belong as a utility class
+ * (rare — prefer utilities in the markup wherever possible).
+ */
+body {
+	font-family: var(--font-sans);
+}
+.container2 {
+  position: relative;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0E0221;
+  opacity: 0.75;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  height: 100%;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

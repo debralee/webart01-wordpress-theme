@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/*
+ * Theme tokens for WebArt01.
+ * Add more as needed — these map to the palette from the original site
+ * (see old custom.css color reference comment) plus the newer accent colors.
+ */
+@theme {
+	--color-navy: #0b0d5f;
+	--color-badge: #4b55ac;
+	--color-ice: #89e8f9;
+	--color-lime: #a3ff54;
+	--color-slate: #534c65;
+	--color-teal: #3da8ad;
+
+	--font-sans: "Gayathri", ui-sans-serif, system-ui, sans-serif;
+}
+
+/*
+ * Any small global overrides that don't belong as a utility class
+ * (rare — prefer utilities in the markup wherever possible).
+ */
+body {
+	font-family: var(--font-sans);
+}
