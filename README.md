@@ -4,7 +4,7 @@ A custom, responsive WordPress theme built from scratch for **[WebArt01](https:/
 
 **Live site:** [https://webart01.com](https://webart01.com/)
 
-![WebArt01 home page](screenshots/home.png)
+<img width="400" height="734" alt="Image" src="https://github.com/user-attachments/assets/02c52af8-84af-4890-975b-4ce595af9c0c" />
 
 ## Features
 
@@ -31,9 +31,9 @@ A custom, responsive WordPress theme built from scratch for **[WebArt01](https:/
 
 ## Screenshots
 
-| Home | Services | Mobile |
-|---|---|---|
-| ![Home](screenshots/home.png) | ![Services](screenshots/services.png) | ![Mobile](screenshots/mobile.png) |
+| Services  | Quote
+|---|---|
+| <img width="400" height="337" alt="Image" src="https://github.com/user-attachments/assets/ce6ccbf6-8004-4169-81bb-290d80569469" />|<img width="400" height="323" alt="Image" src="https://github.com/user-attachments/assets/836de0bd-aa22-46e1-985e-af7548afbf9d" />
 
 ## Theme Structure
 
